@@ -7,7 +7,7 @@
 #
 #
 # Copyright (c) 2002-2007 Gene Cash
-# Copyright (c) 2007-2014 Ianaré Sévi and contributors
+# Copyright (c) 2007-2014 Ianaré Sévi and daliu
 #
 # See LICENSE.txt file for licensing information
 # See CHANGES.txt file for all contributors and changes
@@ -50,7 +50,6 @@ def show_version():
 
 
 def main():
-    """Parse command line options/arguments and execute."""
     try:
         arg_names = ["help", "version", "quick", "strict", "debug", "stop-tag="]
         opts, args = getopt.getopt(sys.argv[1:], "hvqsdct:v", arg_names)
